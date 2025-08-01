@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Bags | Loja Fofinha</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <header>
+    <h1>E-Bags 👜</h1>
+    <p>Mochilas e bolsas com estilo e fofura</p>
+    <nav>
+        <ul>
+        <li><a href="#sobre">Sobre a Loja</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li class="dropdown">
+            <a href="#">Categorias ▾</a>
+            <ul class="dropdown-menu">
+            <li><a href="#">Mochilas</a></li>
+            <li><a href="#">Bolsas</a></li>
+            <li><a href="#">Infantil</a></li>
+            </ul>
+        </li>
+        </ul>
+    </nav>
+    </header>
+
+    <section id="sobre">
+    <div class="imagem-sobre">
+        <img src="./imagens/sobre.jpg" alt="Loja E-Bags" />
+    </div>
+    <div class="texto-sobre">
+        <h2>Sobre a E-Bags ✨</h2>
+        <p>
+        Aqui na E-Bags, acreditamos que mochilas e bolsas podem ser funcionais
+        e encantadoras! Criamos produtos fofinhos, confortáveis e com
+        personalidade.
+        </p>
+    </div>
+    </section>
+
+    <section id="produtos">
+    <h2>Produtos Adoráveis 💖</h2>
+    <div class="lista-produtos">
+        <div class="produto">
+        <img src="./imagens/mochilarosa.jpg" alt="Mochila Rosa Pastel" />
+        <h3>Mochila Rosa</h3>
+        <p>Fofo e funcional. Cabe notebook e amor!</p>
+        <button onclick="adicionarCarrinho()">Quero essa 🛒</button>
+        </div>
+        <div class="produto">
+        <img src="./imagens/bolsacoracao.jpg" alt="Bolsa Coração" />
+        <h3>Bolsa Coração</h3>
+        <p>Um charme com formato apaixonante.</p>
+        <button onclick="adicionarCarrinho()">Quero essa 🛒</button>
+        </div>
+        <div class="produto">
+        <img src="./imagens/mochilagatinho.jpg" alt="Mochila Gatinho" />
+        <h3>Mochila Gatinho</h3>
+        <p>Com orelhinhas e tudo. Mia de fofura 🐱</p>
+        <button onclick="adicionarCarrinho()">Quero essa 🛒</button>
+        </div>
+        <div class="produto">
+        <img src="./imagens/bolsaarcoiris.jpg" alt="Bolsa Arco-íris" />
+        <h3>Bolsa Arco-íris</h3>
+        <p>Colorida, vibrante e mágica 🌈</p>
+        <button onclick="adicionarCarrinho()">Quero essa 🛒</button>
+        </div>
+    </div>
+    </section>
+
+    <footer>
+    <p>&copy; 2025 E-Bags ✿ Loja mais fofa da internet</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
